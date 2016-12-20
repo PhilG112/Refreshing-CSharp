@@ -32,7 +32,6 @@ public class Program
         // six.Range();
 
         var seven = new Seven();
-        seven.MetersPerScond();
     }
 
     public static void BasicExercises()

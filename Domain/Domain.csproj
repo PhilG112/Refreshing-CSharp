@@ -42,6 +42,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicExercises\Eight.cs" />
+    <Compile Include="BasicExercises\Eleven.cs" />
+    <Compile Include="BasicExercises\Five.cs" />
+    <Compile Include="BasicExercises\Four.cs" />
+    <Compile Include="BasicExercises\Fourteen.cs" />
+    <Compile Include="BasicExercises\Nine.cs" />
+    <Compile Include="BasicExercises\One.cs" />
+    <Compile Include="BasicExercises\Seven.cs" />
+    <Compile Include="BasicExercises\Six.cs" />
+    <Compile Include="BasicExercises\Ten.cs" />
+    <Compile Include="BasicExercises\Thirteen.cs" />
+    <Compile Include="BasicExercises\Three.cs" />
+    <Compile Include="BasicExercises\Twelve.cs" />
+    <Compile Include="BasicExercises\Two.cs" />
+    <Compile Include="DataTypeExercises\Five.cs" />
+    <Compile Include="DataTypeExercises\Four.cs" />
+    <Compile Include="DataTypeExercises\One.cs" />
+    <Compile Include="DataTypeExercises\Seven.cs" />
+    <Compile Include="DataTypeExercises\Six.cs" />
+    <Compile Include="DataTypeExercises\Three.cs" />
+    <Compile Include="DataTypeExercises\Two.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
