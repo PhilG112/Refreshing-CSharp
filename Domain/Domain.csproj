@@ -56,8 +56,11 @@
     <Compile Include="BasicExercises\Three.cs" />
     <Compile Include="BasicExercises\Twelve.cs" />
     <Compile Include="BasicExercises\Two.cs" />
+    <Compile Include="DataTypeExercises\Eight.cs" />
+    <Compile Include="DataTypeExercises\Eleven.cs" />
     <Compile Include="DataTypeExercises\Five.cs" />
     <Compile Include="DataTypeExercises\Four.cs" />
+    <Compile Include="DataTypeExercises\Nine.cs" />
     <Compile Include="DataTypeExercises\One.cs" />
     <Compile Include="DataTypeExercises\Seven.cs" />
     <Compile Include="DataTypeExercises\Six.cs" />
@@ -65,6 +68,7 @@
     <Compile Include="DataTypeExercises\Two.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataTypeExercises\Ten.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

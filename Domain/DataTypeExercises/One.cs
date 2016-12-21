@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace csharpPractice.DataTypeExercises
+namespace Domain.DataTypeExercises
 {
     public class One
     {

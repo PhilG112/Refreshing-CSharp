@@ -1,6 +1,6 @@
 using System;
 
-namespace csharpPractice.DataTypeExercises
+namespace Domain.DataTypeExercises
 {
     public class Four
     {

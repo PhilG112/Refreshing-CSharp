@@ -1,13 +1,14 @@
 ﻿using System;
+using Domain.DataTypeExercises;
 //using csharpPractice.BasicExercises;
-using csharpPractice.DataTypeExercises;
+
 
 public class Program
 {
     static void Main(string[] args)
     {
-        // BasicExercises();
-        DataTypeExercises(); 
+        //BasicExercises();
+        //DataTypeExercises(); 
         Console.ReadKey();
     }
 
@@ -31,7 +32,20 @@ public class Program
         // var six = new Six();
         // six.Range();
 
-        var seven = new Seven();
+        //var seven = new Seven();
+        //seven.Calculations();
+
+        //var eight = new Eight();
+        //eight.Radius();
+
+        //var nine = new Nine();
+        //nine.InputCheck();
+
+        //var ten = new Ten();
+        //ten.TrueFalse();
+
+        //var eleven = new Eleven();
+        //eleven.IntToBinary();
     }
 
     public static void BasicExercises()
