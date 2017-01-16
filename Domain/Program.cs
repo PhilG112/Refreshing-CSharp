@@ -1,6 +1,7 @@
 ﻿using System;
-using Domain.DataTypeExercises;
+//using Domain.DataTypeExercises;
 //using csharpPractice.BasicExercises;
+using Domain.ContitionalStatements;
 
 
 public class Program
@@ -9,6 +10,7 @@ public class Program
     {
         //BasicExercises();
         //DataTypeExercises(); 
+        ConditionalStatementExercises();
         Console.ReadKey();
     }
 
@@ -91,5 +93,23 @@ public class Program
 
         // var fourteen = new Fourteen();
         // fourteen.Output();
+    }
+
+    public static void ConditionalStatementExercises()
+    {
+        //var one =  new One();
+        //one.Compare();
+
+        //var two = new Two();
+        //two.IsOddOrEven();
+
+        //var three = new Three();
+        //three.IsPosOrNeg();
+
+        //var four = new Four();
+        //four.IsLeapYear();
+
+        var five = new Five();
+        five.CanVote();
     }
 }
