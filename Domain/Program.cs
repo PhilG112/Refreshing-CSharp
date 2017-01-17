@@ -112,7 +112,10 @@ public class Program
         //var five = new Five();
         //five.CanVote();
 
-        var six = new Six();
-        six.WhatIsValue();
+        //var six = new Six();
+        //six.WhatIsValue();
+
+        var seven = new Seven();
+          
     }
 }

@@ -59,6 +59,7 @@
     <Compile Include="ContitionalStatements\Five.cs" />
     <Compile Include="ContitionalStatements\Four.cs" />
     <Compile Include="ContitionalStatements\One.cs" />
+    <Compile Include="ContitionalStatements\Seven.cs" />
     <Compile Include="ContitionalStatements\Six.cs" />
     <Compile Include="ContitionalStatements\Three.cs" />
     <Compile Include="ContitionalStatements\Two.cs" />
