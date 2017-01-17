@@ -109,7 +109,10 @@ public class Program
         //var four = new Four();
         //four.IsLeapYear();
 
-        var five = new Five();
-        five.CanVote();
+        //var five = new Five();
+        //five.CanVote();
+
+        var six = new Six();
+        six.WhatIsValue();
     }
 }
