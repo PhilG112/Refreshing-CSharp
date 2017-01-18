@@ -6,19 +6,36 @@ using System.Threading.Tasks;
 
 namespace Domain.ContitionalStatements
 {
-    public delegate void Height(int h);
+    public delegate void ProcessHeight(int h);
     public class Seven
     {
+        private readonly ProcessHeight _height;
         public enum Heights
         {
             Dwarf,
             Short,
             Tall
         }
-        public void CheckHeight()
+
+        public Seven()
         {
-            var height = int.Parse(Console.ReadLine());
-            
+            _height = FilterHeight;
+            Delegate[] methods = _height.GetInvocationList();
+            var input = int.Parse(Console.ReadLine());
+            foreach (Delegate d in methods)
+            {
+                d.DynamicInvoke(input);
+            }
+        }
+
+        public void FilterHeight(int h)
+        {
+            if (h <= 135)
+                Console.WriteLine(Heights.Dwarf);
+            else if (h > 135 && h < 165)
+                Console.WriteLine(Heights.Short);
+            else
+                Console.WriteLine(Heights.Tall);
         }
     }
 }

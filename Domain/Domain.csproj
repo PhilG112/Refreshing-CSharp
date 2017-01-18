@@ -58,6 +58,7 @@
     <Compile Include="BasicExercises\Two.cs" />
     <Compile Include="ContitionalStatements\Five.cs" />
     <Compile Include="ContitionalStatements\Four.cs" />
+    <Compile Include="ContitionalStatements\Nine.cs" />
     <Compile Include="ContitionalStatements\One.cs" />
     <Compile Include="ContitionalStatements\Seven.cs" />
     <Compile Include="ContitionalStatements\Six.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="DataTypeExercises\Six.cs" />
     <Compile Include="DataTypeExercises\Three.cs" />
     <Compile Include="DataTypeExercises\Two.cs" />
+    <Compile Include="ContitionalStatements\Eight.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataTypeExercises\Ten.cs" />

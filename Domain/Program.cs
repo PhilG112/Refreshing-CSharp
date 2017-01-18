@@ -1,4 +1,5 @@
 ﻿using System;
+using Domain;
 //using Domain.DataTypeExercises;
 //using csharpPractice.BasicExercises;
 using Domain.ContitionalStatements;
@@ -115,7 +116,9 @@ public class Program
         //var six = new Six();
         //six.WhatIsValue();
 
-        var seven = new Seven();
+        //var seven = new Seven();
+
+        var eight = new Eight();
           
     }
 }
