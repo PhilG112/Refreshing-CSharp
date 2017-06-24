@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp.Types
+namespace Domain.Types
 {
 
     public class PointC

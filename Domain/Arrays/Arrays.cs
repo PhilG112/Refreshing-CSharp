@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp.Arrays
+namespace Domain.Arrays
 {
     public struct PointS
     {

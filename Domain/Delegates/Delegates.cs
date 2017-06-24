@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading;
 
-namespace ConsoleApp.Delegates
+namespace Domain.Delegates
 {
     public delegate int Transformer(int x);
     public delegate void ProgressReporter(int percentComplete);

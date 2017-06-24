@@ -9,11 +9,11 @@ public class Program
 {
     static void Main(string[] args)
     {
-        //BasicExercises();
-        //DataTypeExercises(); 
-        ConditionalStatementExercises();
+        // Call method here
         Console.ReadKey();
     }
+
+    #region Exercises
 
     public static void DataTypeExercises()
     {
@@ -123,4 +123,6 @@ public class Program
         var nine = new Nine();
           
     }
+
+    #endregion
 }
