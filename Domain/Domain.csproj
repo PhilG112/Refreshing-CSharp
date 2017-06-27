@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Arrays\Arrays.cs" />
     <Compile Include="BasicExercises\Eight.cs" />
     <Compile Include="BasicExercises\Eleven.cs" />
     <Compile Include="BasicExercises\Five.cs" />
@@ -75,13 +76,20 @@
     <Compile Include="DataTypeExercises\Three.cs" />
     <Compile Include="DataTypeExercises\Two.cs" />
     <Compile Include="ContitionalStatements\Eight.cs" />
+    <Compile Include="Delegates\Delegates.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgrammingProblems\LeetCode\TwoSum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DataTypeExercises\Ten.cs" />
+    <Compile Include="Types\Types.cs" />
+    <Compile Include="Variance\Contravariance.cs" />
+    <Compile Include="Variance\Covariance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="ProgrammingProblems\Reddit\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

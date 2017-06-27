@@ -8,7 +8,7 @@ namespace Domain.Variance
 {
     public class Covariance
     {
-        Stack<Bear> bears = new Stack<Bear>();
+        readonly Stack<Bear> _bears = new Stack<Bear>();
         // Stack<Animal> animals = bears; // Compile-time error
         // The above restriction prevents the possibility of runtime failture
         // with the following code:
@@ -18,12 +18,12 @@ namespace Domain.Variance
         {
             // The following is now legal after defining constraints on
             // ZooCleaner.Wash()
-            ZooCleaner.Wash(bears);
+            ZooCleaner.Wash(_bears);
         }
     }
 
     // Variance is not automatic.
-    // To ensure static type safety, type parameters are not automatically varint.
+    // To ensure static type safety, type parameters are not automatically variant.
     public class Animal { }
     public class Bear : Animal { }
     public class Camel : Animal { }
@@ -44,7 +44,5 @@ namespace Domain.Variance
 
         // To avoid the above we redefine Wash with a constraint:
         public static void Wash<T>(Stack<T> animals) where T : Animal { }
-
-        
     }
 }
