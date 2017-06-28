@@ -3,6 +3,7 @@ using Domain;
 //using Domain.DataTypeExercises;
 //using csharpPractice.BasicExercises;
 using Domain.ContitionalStatements;
+using Domain.ProgrammingProblems;
 using Domain.ProgrammingProblems.LeetCode;
 
 
@@ -11,7 +12,6 @@ public class Program
     static void Main(string[] args)
     {
         // Call method here
-        
         Console.ReadKey();
     }
 
