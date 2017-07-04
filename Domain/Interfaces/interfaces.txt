@@ -1,0 +1,16 @@
+﻿What are interfaces?
+Interfaces describe a group of related functions that can belong to any class or struct. They are contracts. They can only define properties, methods, events or indexers. The members are always public.
+They are the 'what' not the 'how'.
+
+
+Abstract classes:
+	May contain implementation code.
+	A class may inherit from a  single base class.
+	Members have access modifiers.
+	Can contain all normal things a class has.
+
+Interfaces:
+	May not contain implementation code.
+	A class may implement any number of interfaces.
+	Members are automatically public.
+	Limited to what can be defined. See above.

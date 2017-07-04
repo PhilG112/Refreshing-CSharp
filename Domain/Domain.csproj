@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractClasses\AbstractPolygon.cs" />
+    <Compile Include="AbstractClasses\Triangle.cs" />
     <Compile Include="Arrays\Arrays.cs" />
     <Compile Include="BasicExercises\Eight.cs" />
     <Compile Include="BasicExercises\Eleven.cs" />
@@ -77,8 +79,19 @@
     <Compile Include="DataTypeExercises\Two.cs" />
     <Compile Include="ContitionalStatements\Eight.cs" />
     <Compile Include="Delegates\Delegates.cs" />
+    <Compile Include="Interfaces\ConcreteVsInterfaces\Person.cs" />
+    <Compile Include="Interfaces\ConcreteVsInterfaces\PersonRepository.cs" />
+    <Compile Include="Interfaces\ExplicitImplementation\Implementations.cs" />
+    <Compile Include="Interfaces\ExplicitImplementation\Interfaces.cs" />
+    <Compile Include="Interfaces\ExplicitImplementation\Main.cs" />
+    <Compile Include="Interfaces\IRegularPolygon.cs" />
+    <Compile Include="Interfaces\Octagon.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgrammingProblems\Allergens.cs" />
     <Compile Include="ProgrammingProblems\AtbashCipher.cs" />
+    <Compile Include="ProgrammingProblems\Fibonacci.cs" />
+    <Compile Include="ProgrammingProblems\FizzBuzz.cs" />
+    <Compile Include="ProgrammingProblems\LeetCode\ReverseInteger.cs" />
     <Compile Include="ProgrammingProblems\LeetCode\TwoSum.cs" />
     <Compile Include="ProgrammingProblems\WheatCheesboardProblem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +105,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ProgrammingProblems\Reddit\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Interfaces\interfaces.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
