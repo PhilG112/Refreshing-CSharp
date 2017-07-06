@@ -1,0 +1,25 @@
+﻿The role of Events:
+- Events are notifications, they go out to one or more listeners/subscribers listening for changes in events.
+- They play a central role in the .NET framework.
+- Provide a way to trigger notifications from end users or from objects.
+- Events signal the occurrence of an action/notifications.
+- Objects that raise events don't need to explicitly know the object that will handle the event.
+- Events pass EventArgs (event data).
+
+The role of Delegates:
+- Pipeline between an event and eventhandler.
+- Specialized class often called a "function pointer".
+- Based on a MulticastDelegate base class
+
+The role of Event Handlers:
+- Responsible for receiving and processing data from a delegate.
+- Two Parameters:
+	- Sender
+	- EventArgs:
+		- EventArgs responsible for encapsulating event data
+- public void btnSubmit_Click(object sender, EventArgs e) { // Handling of button click occurs here }
+
+Mutlicast Delegates:
+- Can reference more than one delegate function.
+- Tracks delegate references using an incovation list.
+- Delegates in the list are invoked sequentially.

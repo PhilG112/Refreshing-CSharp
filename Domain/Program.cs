@@ -5,14 +5,18 @@ using Domain;
 using Domain.ContitionalStatements;
 using Domain.ProgrammingProblems;
 using Domain.ProgrammingProblems.LeetCode;
-
+using System.Linq;
+using Domain.Delegates.PluralSight.CustomDelegates;
+using Domain.Delegates.PluralSight.MultipleDelegates;
 
 public class Program
 {
     static void Main(string[] args)
     {
         // Call method here
+        new AddMultipleDelegates();
         
+
         Console.ReadKey();
     }
 

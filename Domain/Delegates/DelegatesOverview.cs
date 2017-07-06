@@ -8,9 +8,9 @@ namespace Domain.Delegates
     public delegate void ProgressReporter(int percentComplete);
     public delegate T GenericTransformer<T>(T arg);
 
-    public class Delegates
+    public class DelegatesOverview
     {
-        public Delegates()
+        public DelegatesOverview()
         {
             // Assigning a method to a delegate variable creates a delegate instance
             Transformer t = Square; // Create delegate instance
