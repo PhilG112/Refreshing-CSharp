@@ -14,7 +14,6 @@ public class Program
     static void Main(string[] args)
     {
         // Call method here
-        new AddMultipleDelegates();
         
 
         Console.ReadKey();

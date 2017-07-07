@@ -78,7 +78,12 @@
     <Compile Include="DataTypeExercises\Three.cs" />
     <Compile Include="DataTypeExercises\Two.cs" />
     <Compile Include="ContitionalStatements\Eight.cs" />
+    <Compile Include="Delegates\Async\AsyncBad.cs" />
+    <Compile Include="Delegates\Async\AsyncGood.cs" />
     <Compile Include="Delegates\DelegatesOverview.cs" />
+    <Compile Include="Delegates\MediatorPattern\Job.cs" />
+    <Compile Include="Delegates\MediatorPattern\JobChangedEventArgs.cs" />
+    <Compile Include="Delegates\MediatorPattern\Mediator.cs" />
     <Compile Include="Delegates\PluralSight\AddMultipleDelegates.cs" />
     <Compile Include="Delegates\PluralSight\BuiltInDelegates\ActionDelegate.cs" />
     <Compile Include="Delegates\PluralSight\BuiltInDelegates\FuncDelegate.cs" />
@@ -114,6 +119,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="LINQ\" />
     <Folder Include="ProgrammingProblems\Reddit\" />
   </ItemGroup>
   <ItemGroup>
