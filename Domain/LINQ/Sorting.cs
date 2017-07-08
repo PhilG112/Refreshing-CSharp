@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Domain.LINQ
 {
@@ -16,7 +13,7 @@ namespace Domain.LINQ
         }
 
         public IEnumerable<Customer> SortByName(List<Customer> customers)
-        {
+        {   
             return customers.OrderBy(c => c.FirstName).ThenBy(c => c.LastName);
         }
 

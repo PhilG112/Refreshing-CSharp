@@ -99,6 +99,15 @@
     <Compile Include="Interfaces\ExplicitImplementation\Main.cs" />
     <Compile Include="Interfaces\IRegularPolygon.cs" />
     <Compile Include="Interfaces\Octagon.cs" />
+    <Compile Include="LINQ\ComparingCombining.cs" />
+    <Compile Include="LINQ\Creating.cs" />
+    <Compile Include="LINQ\Customer.cs" />
+    <Compile Include="LINQ\DataSource.cs" />
+    <Compile Include="LINQ\Overview.cs" />
+    <Compile Include="LINQ\ParentChildData.cs" />
+    <Compile Include="LINQ\Sorting.cs" />
+    <Compile Include="LINQ\StringExtension.cs" />
+    <Compile Include="LINQ\TransformingAndProjections.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgrammingProblems\Allergens.cs" />
     <Compile Include="ProgrammingProblems\AtbashCipher.cs" />
@@ -119,7 +128,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="LINQ\" />
     <Folder Include="ProgrammingProblems\Reddit\" />
   </ItemGroup>
   <ItemGroup>
