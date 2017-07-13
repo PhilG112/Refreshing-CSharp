@@ -1,0 +1,5 @@
+C:\Users\Phillip\Documents\GitHub\Refreshing-CSharp\ACM.BL\bin\Debug\ACM.BL.dll
+C:\Users\Phillip\Documents\GitHub\Refreshing-CSharp\ACM.BL\bin\Debug\ACM.BL.pdb
+C:\Users\Phillip\Documents\GitHub\Refreshing-CSharp\ACM.BL\obj\Debug\ACM.BL.csprojResolveAssemblyReference.cache
+C:\Users\Phillip\Documents\GitHub\Refreshing-CSharp\ACM.BL\obj\Debug\ACM.BL.dll
+C:\Users\Phillip\Documents\GitHub\Refreshing-CSharp\ACM.BL\obj\Debug\ACM.BL.pdb

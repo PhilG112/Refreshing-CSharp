@@ -99,6 +99,7 @@
     <Compile Include="Interfaces\ExplicitImplementation\Main.cs" />
     <Compile Include="Interfaces\IRegularPolygon.cs" />
     <Compile Include="Interfaces\Octagon.cs" />
+    <Compile Include="LINQ\AnalyzingData.cs" />
     <Compile Include="LINQ\ComparingCombining.cs" />
     <Compile Include="LINQ\Creating.cs" />
     <Compile Include="LINQ\Customer.cs" />

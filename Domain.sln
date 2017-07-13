@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.25928.0
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EE2507D4-4BCD-4CCC-90B2-B0217B0346B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOPFundamentals", "OOPFundamentals", "{16D37A84-8818-49AF-8A89-12CC83B4AE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{2799AAA2-6A94-4C46-ABAC-82AEE31394AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B6431414-3A22-4964-B080-AE0EE54A22E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BLTest", "ACM.BLTest\ACM.BLTest.csproj", "{42C1A06B-C556-4A94-97B2-52370A123F7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +23,21 @@ Global
 		{EE2507D4-4BCD-4CCC-90B2-B0217B0346B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2507D4-4BCD-4CCC-90B2-B0217B0346B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2507D4-4BCD-4CCC-90B2-B0217B0346B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2799AAA2-6A94-4C46-ABAC-82AEE31394AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2799AAA2-6A94-4C46-ABAC-82AEE31394AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2799AAA2-6A94-4C46-ABAC-82AEE31394AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2799AAA2-6A94-4C46-ABAC-82AEE31394AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C1A06B-C556-4A94-97B2-52370A123F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C1A06B-C556-4A94-97B2-52370A123F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C1A06B-C556-4A94-97B2-52370A123F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C1A06B-C556-4A94-97B2-52370A123F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2799AAA2-6A94-4C46-ABAC-82AEE31394AA} = {16D37A84-8818-49AF-8A89-12CC83B4AE18}
+		{B6431414-3A22-4964-B080-AE0EE54A22E5} = {16D37A84-8818-49AF-8A89-12CC83B4AE18}
+		{42C1A06B-C556-4A94-97B2-52370A123F7E} = {B6431414-3A22-4964-B080-AE0EE54A22E5}
 	EndGlobalSection
 EndGlobal

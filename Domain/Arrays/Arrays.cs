@@ -58,17 +58,19 @@ namespace Domain.Arrays
 
             // An array itself is always a reference type object, regardless of the 
             // element type, the following is legal;
+#pragma warning disable CS0219 // Variable is assigned but its value is never used
             int[] a2 = null;
+#pragma warning restore CS0219 // Variable is assigned but its value is never used
 
             // MULTIDIMENSIONAL ARRAYS
-                // Multidimensional come in two varieties: rectengular and jagged.
-                // Rectangular arrays represent an n-dimensional block of memory and jagged
-                // arrays are arrays of arrays
+            // Multidimensional come in two varieties: rectengular and jagged.
+            // Rectangular arrays represent an n-dimensional block of memory and jagged
+            // arrays are arrays of arrays
 
             // RECTANGULAR ARRAYS:
-                // Rectangular arrays are declared using commas to seperate each
-                // dimension. The following decalres a 2d array, where the dimensions are
-                // 3x3
+            // Rectangular arrays are declared using commas to seperate each
+            // dimension. The following decalres a 2d array, where the dimensions are
+            // 3x3
             int[,] matrix = new int[3,3];
             // The GetLength() of an array returns the length for a given dimension
             // starting at 0:
