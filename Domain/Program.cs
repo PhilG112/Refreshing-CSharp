@@ -1,7 +1,7 @@
 ﻿using System;
 using Domain;
-//using Domain.DataTypeExercises;
-//using csharpPractice.BasicExercises;
+using Domain.DataTypeExercises;
+using csharpPractice.BasicExercises;
 using Domain.ContitionalStatements;
 using Domain.ProgrammingProblems;
 using Domain.ProgrammingProblems.LeetCode;
@@ -14,7 +14,7 @@ public class Program
     static void Main(string[] args)
     {
         // Call method here
-        
+
 
         Console.ReadKey();
     }
@@ -126,8 +126,10 @@ public class Program
 
         //var eight = new Eight();
 
-        var nine = new Nine();
-          
+        //var nine = new Nine();
+
+        //var ten = new Domain.ContitionalStatements.Ten(72, 65, 51);
+        //Console.WriteLine(ten.IsEligible());
     }
 
     #endregion
