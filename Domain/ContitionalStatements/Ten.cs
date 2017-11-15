@@ -21,14 +21,10 @@ namespace Domain.ContitionalStatements
             var maths = CheckMaths();
             var physics = CheckPhysics();
             var chemistry = CheckChemistry();
-
             var totalmarks = TotalMarks();
 
-            if ((maths && physics && chemistry) && (totalmarks >= 180))
-            {
-                return "The candidate is eligible for admission";
-            }
-            else if (maths && (_physicsMark + _chemistryMark >= 140))
+            if ((maths && physics && chemistry) && (totalmarks >= 180)
+                || (maths && (_physicsMark + _chemistryMark >= 140)))
             {
                 return "The candidate is eligible for admission";
             }
